@@ -10,12 +10,12 @@ namespace Assignment01
     {
         private int length, breadth;
 
-        Rectangle()
+        public Rectangle()
         {
             length = 1;
             breadth = 1;
         }
-        Rectangle( int length, int breadth)
+        public Rectangle( int length, int breadth)
         {
             this.length = length;
             this.breadth = breadth;
@@ -26,9 +26,10 @@ namespace Assignment01
             return length;
 
         }
-        public void SetLength(int length)
+        public int SetLength(int length)
         {
             this.length = length;
+            return 1;
 
         }
 
@@ -37,9 +38,10 @@ namespace Assignment01
             return breadth;
 
         }
-        public void SetWidth(int breadth)
+        public int SetWidth(int breadth)
         {
             this.breadth = breadth;
+            return 1;
 
         }
         public int GetPerimeter()
