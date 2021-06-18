@@ -39,11 +39,7 @@ namespace Assignment01
                 Console.WriteLine("6.   Get Rectangle Area");
                 Console.WriteLine("7.   Exit");
                 Int32.TryParse(Console.ReadLine(), out userInput);
-                /*if (userInput < 1 &&  userInput > 7)
-                {
-                    Console.WriteLine("Incorrect input!!!");
-                    continue;
-                }*/
+
                 switch ( userInput)
                 {
                     case 1:
